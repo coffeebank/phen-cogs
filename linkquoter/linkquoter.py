@@ -277,11 +277,11 @@ class LinkQuoter(commands.Cog):
                     inline=False,
                 )
 
-        e.add_field(
-            name="Source",
-            value=f'\n[[jump to message]]({message.jump_url} "Follow me to the original message!")',
-            inline=False,
-        )
+        #e.add_field(
+        #    name="Source",
+        #    value=f'\n[[jump to message]]({message.jump_url} "Follow me to the original message!")',
+        #    inline=False,
+        #)
         return e
 
     async def create_embeds(
